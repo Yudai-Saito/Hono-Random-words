@@ -1,0 +1,24 @@
+{
+  "name": "hono-random-words",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "dotenv -e .env wrangler deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "dotenv": "^16.4.5",
+    "hono": "^4.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "wrangler": "^3.65.1"
+  }
+}
