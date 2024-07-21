@@ -1,0 +1,10 @@
+name = "hono-random-words"
+main = "dist/index.js"
+compatibility_date = "2024-07-21"
+
+[build]
+command = "npm run build"
+
+[env.production]
+account_id = "${CLOUD_FLARE_ACCOUNT_ID}"
+workers_dev = true
